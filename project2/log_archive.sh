@@ -2,7 +2,7 @@
 
 # Check if log directory is provided
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 <log-directory>"
+    echo "please provide the log directory path: $0 <log-directory>"
     exit 1
 fi
 
